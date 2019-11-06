@@ -35,4 +35,6 @@ class ApplicationController < Sinatra::Base
   
   ##updates a recipe
   patch '/recipes/:id' do
+    
+  end 
 end
