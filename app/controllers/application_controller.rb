@@ -28,5 +28,5 @@ class ApplicationController < Sinatra::Base
   end
   
   ##loads edit form
-  get
+  get "/recipes/"
 end
