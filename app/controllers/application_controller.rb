@@ -34,5 +34,5 @@ class ApplicationController < Sinatra::Base
   end 
   
   ##updates a recipe
-  
+  patch '/recipes/'
 end
