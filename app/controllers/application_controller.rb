@@ -27,5 +27,6 @@ class ApplicationController < Sinatra::Base
     erb :show
   end
   
-  
+  ##loads edit form
+  get
 end
